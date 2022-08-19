@@ -1,0 +1,57 @@
+{
+  "name": "createx",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@vuesimple/vs-accordion": "^1.4.6",
+    "core-js": "^3.6.5",
+    "swiper": "^8.3.2",
+    "vue": "^2.6.11",
+    "vue-accordion": "^1.0.0",
+    "vue-burger-menu": "^2.0.5",
+    "vue-carousel": "^0.18.0",
+    "vue-faq-accordion": "^1.6.2",
+    "vue-router": "^3.2.0",
+    "vue-scroll-behavior": "^0.3.0",
+    "vue-scroll-to": "^2.2.1",
+    "vue-scrollto": "^2.20.0",
+    "vue-slick-carousel": "^1.0.6",
+    "vue2-flip-countdown": "^0.12.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.15",
+    "@vue/cli-plugin-eslint": "~4.5.15",
+    "@vue/cli-plugin-router": "~4.5.15",
+    "@vue/cli-service": "~4.5.15",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
