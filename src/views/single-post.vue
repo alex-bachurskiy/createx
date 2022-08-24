@@ -1119,21 +1119,25 @@ export default {
                         color: #1E212C;
                         position: relative;
                         display: flex;
+                        margin-top: 48px;
                         margin-bottom: 48px;
 
                         @media screen and (min-width: 1024px) and (max-width: 1240px) { 
                             font-size: 18px;
                             margin-top: 38px;
+                            margin-bottom: 38px;
                         }
 
                         @media screen and (min-width: 768px) and (max-width: 1023px) { 
                             font-size: 18px;
                             margin-top: 35px;
+                            margin-bottom: 35px;
                         }
 
                         @media screen and (min-width: 320px) and (max-width: 767px) { 
                             font-size: 16px;
                             margin-top: 25px;
+                            margin-bottom: 25px;
                         }
 
                         &::before {
